@@ -16,6 +16,27 @@ body {
 }
 
 .sidebar {
-  grid-row: 1 /3 ;
+  display:flex;
+  flex-direction: column;
+  gap: 2rem;
+  grid-row: 1 /3;
   background-color: lightblue;
 }
+
+.sidebar {
+  padding-top: 0.5rem;
+}
+
+.sidebar-header > h1 {
+  font-size: 1.5rem;
+}
+
+.bar-item {
+  display:flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
