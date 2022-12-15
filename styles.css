@@ -103,3 +103,59 @@ body {
 }
 
 
+/* ------------- */
+  /* Main-Menu */
+/* ------------- */
+
+/* TASK SECTION */
+.main-menu{
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 4rem 1rem;
+  background-color: white;
+}
+
+.task-menu {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(2rem, 10rem));
+  gap: 1rem;
+}
+
+
+.card{
+  display: grid;
+  row-gap: 0.2rem;
+  background-color: lightcoral;
+  border-radius: 10px;
+  height: 8rem;
+}
+
+.card, .announcements-cont{
+  padding: 1rem;
+  font-size: 0.75rem;
+}
+
+.card-title, .announcement-header {
+  font-size: 1.2rem;
+  align-self: end;
+}
+
+.card-icon-cont {
+  place-self:end;
+}
+
+/* ANNOUNCEMENT SECTION */
+ .announcements-cont{
+  background-color:gray;
+}
+
+.announcement-header {
+  font-size: 1.2rem;
+}
+
+
+
+
