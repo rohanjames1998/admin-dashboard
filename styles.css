@@ -264,7 +264,7 @@ a:hover {
 }
 
 .announcements {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   padding-right: 2.5rem;
   padding-left: 2.5rem;
 }
@@ -274,7 +274,6 @@ a:hover {
 
 .announcement {
   text-overflow: ellipsis;
-  overflow: hidden;
   border-bottom: 1px solid #d3d3d3;
   padding: 0.5rem 0;
 }
@@ -285,9 +284,9 @@ a:hover {
 }
 
 .announcements, .trending{
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 14rem;
   background-color:#fff;
 }
 
